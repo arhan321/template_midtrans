@@ -6,7 +6,7 @@ services:
     container_name: php_coba
     hostname: "php"
     volumes:
-      - ./laravel-midtrans-2023:/var/www/html
+      - ./src:/var/www/html
       - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
     working_dir: /var/www/html
     depends_on: 
@@ -38,7 +38,7 @@ services:
     ports:
       - "81:80"
     volumes:
-      - ./laravel-midtrans-2023:/var/www/html
+      - ./src:/var/www/html
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - php_coba

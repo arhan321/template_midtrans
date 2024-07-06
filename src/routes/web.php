@@ -2,7 +2,8 @@
 
 use App\Models\Transaksi;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TransaksiController;
+use App\Http\Controllers\OrderController;
+
 
 
 Route::get('/', function () {

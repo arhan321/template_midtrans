@@ -14,16 +14,16 @@
 
 <body>
     <div class="container">
-        <h1 class="my-3">Toko FWM</h1>
+        <h1 class="my-3">Toko djncloud hostingan</h1>
         <div class="card" style="width: 18rem;">
             <img src="{{ asset('assets/img/fwm.jpg') }}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">FWM Creamy Foundation</h5>
-                <p class="card-text">Creamy foundation by dr. Netha Glow Expert</p>
+                <h5 class="card-title">toko djncloud hosting</h5>
+                <p class="card-text">ini adalah toko hosting, supaya web anda online</p>
                 <form action="/checkout" method="POST">
                     @csrf
                     <div class="mb-3">
-                        <label for="qty" class="form-label">Masukkan Jumlah Orderan</label>
+                        <label for="qty" class="form-label">Masukkan Jumlah Orderan web anda</label>
                         <input type="number" name="qty" class="form-control" id="qty"
                             aria-describedby="emailHelp" placeholder="Jumlah yang dipesan">
                     </div>

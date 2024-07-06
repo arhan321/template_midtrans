@@ -18,11 +18,11 @@
 
 <body>
     <div class="container">
-        <h1 class="my-3">Toko FWM</h1>
+        <h1 class="my-3">Toko djncloud/h1>
         <div class="card" style="width: 18rem;">
             <img src="{{ asset('assets/img/fwm.jpg') }}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">FWM Creamy Foundation</h5>
+                <h5 class="card-title">Hostingan djncloud</h5>
                 <table>
                     <tr>
                         <td>Nama</td>
@@ -45,7 +45,7 @@
                         <td> : {{ $order->total_price }}</td>
                     </tr>
                 </table>
-                <button id="pay-button" class="btn btn-primary mt-3">Bayar Sekarang</button>
+                <button id="pay-button" class="btn btn-primary mt-3">PAY NOW</button>
             </div>
         </div>
     </div>
